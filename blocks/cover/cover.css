@@ -11,7 +11,22 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition-duration: 0.5s;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
@@ -34,18 +49,3 @@
   }
 }
 
-.cover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  z-index: -1;
-  transition-duration: 0.5s;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
-}
