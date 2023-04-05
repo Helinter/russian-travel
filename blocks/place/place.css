@@ -25,12 +25,27 @@
         grid-column-gap: 28px;
       }
 }
+
+@media screen and (max-width: 1023px) {
+  .place:last-child {
+      padding-bottom:54px;
+
+    }
+}
+
 @media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 320px;
-        grid-template-rows: repeat(5 auto);
-        padding-bottom:50px;
-        grid-row-gap: 32;
+        grid-template-rows: repeat(5, auto);
+        grid-row-gap: 32px;
         grid-column-gap: 0;
+        padding-bottom: 18px;
       }
+}
+
+@media screen and (max-width: 767px) {
+  .place:last-child {
+      padding-bottom:9px;
+
+    }
 }
