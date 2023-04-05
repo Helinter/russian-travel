@@ -4,4 +4,4 @@
 
 для создания использованы технололгии адаптивной вёрстки, такие как Flex-box, CSS grid layout и другие.
 
-Проект на GitHub https://github.com/Helinter/russian-travel.git
+Проект на GitHub https://helinter.github.io/russian-travel/
