@@ -34,5 +34,6 @@
         gap: 12px;
         min-width: 288px;
         min-height: 2724px;
+        padding-top: 64px;
       }
 }
